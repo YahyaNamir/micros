@@ -4,8 +4,6 @@ mongoose
   .connect("mongodb://localhost:27017/bookstore", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    useFindAndModify: false,
-    useCreateIndex: true,
   })
   .then(() => {
     console.log("Connected to MongoDB");
